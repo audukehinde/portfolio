@@ -14,6 +14,7 @@ body {
 .logo{
   color: #ffffff;
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 
 nav{
@@ -24,6 +25,29 @@ nav{
 
 .wrap{
   flex: 1;
+}
+
+.hero{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.hero h1{
+  color: #7D73FC;
+  font-family: 'Lato', sans-serif;
+}
+
+.tag{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+}
+
+.decription {
+  line-height: 1.5em;
+  font-size: 20px;
+  padding: 0 35px;
 }
 
 
