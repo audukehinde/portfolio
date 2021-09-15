@@ -3,3 +3,29 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: #191765;
+  width: 23.5em;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+
+.logo{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+.wrap{
+  flex: 1;
+}
+
+
+
+
