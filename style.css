@@ -57,6 +57,28 @@ nav {
   border-bottom: 1px solid #646369;
 }
 
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding-top: 20px;
+}
+
+.abilities {
+  display: flex;
+  margin: 30px 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  flex-wrap: wrap;
+  /* padding: 50px; */
+}
+
+.abilities p {
+  color: #7D73FC;
+  font-size: 14px;
+}
+
 
 
 
