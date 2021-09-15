@@ -36,7 +36,7 @@ nav {
 }
 
 .hero h1 {
-  color: #7D73FC;
+  color: #7d73fc;
   font-size: 2.2rem;
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -77,11 +77,11 @@ ul li {
 }
 
 .abilities p {
-  color: #7D73FC;
+  color: #7d73fc;
   font-size: 14px;
 }
 
-.elipse{
+.elipse {
   position: absolute;
   top: 10px;
 }
@@ -105,6 +105,18 @@ ul li {
   font-size: 25px;
 }
 
+.point-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
 
+.work {
+  padding-left: 8px;
+  font-size: 25px;
+}
 
-
+.fa-arrow-down {
+  font-size: 20px;
+}
