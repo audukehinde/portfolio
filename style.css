@@ -37,6 +37,7 @@ nav {
 
 .hero h1 {
   color: #7D73FC;
+  font-size: 2.2rem;
   font-family: 'Lato', sans-serif;
   text-align: center;
 }
@@ -71,12 +72,37 @@ ul li {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   flex-wrap: wrap;
-  /* padding: 50px; */
+  border-bottom: 1px solid #646369;
+  padding-bottom: 40px;
 }
 
 .abilities p {
   color: #7D73FC;
   font-size: 14px;
+}
+
+.elipse{
+  position: absolute;
+  top: 10px;
+}
+
+.frameworks {
+  margin-left: 50px;
+  margin-right: 70px;
+}
+
+.skills {
+  margin-top: 30px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials i {
+  padding: 15px;
+  font-size: 25px;
 }
 
 
