@@ -155,8 +155,8 @@ img {
 }
 
 .proof h2 {
- font-size: 28px;
- margin: 40px 0px 40px 0px;
+  font-size: 28px;
+  margin: 40px 0 40px 0;
 }
 
 .proof p {
@@ -178,7 +178,7 @@ img {
   padding-bottom: 12px;
 }
 
-.project-link { 
+.project-link {
   background-color: #7d73fc;
   padding: 15px 15px;
   font-size: 12px;
@@ -189,4 +189,3 @@ img {
   color: #191765;
   font-weight: 700;
 }
-
