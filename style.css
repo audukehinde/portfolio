@@ -98,6 +98,7 @@ ul li {
 
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 .socials i {
@@ -142,14 +143,43 @@ img {
   height: 100%;
 }
 
+.project-img {
+  height: 15em;
+}
+
 .proof h2 {
  font-size: 28px;
  margin: 40px 0 40px 0px;
 }
 
 .proof p {
-  font-size: 20px;
-  line-height: 33px;
-  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.5em;
   color: #c8c8d4;
+}
+
+.tools ul {
+  margin: 10% 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 14px;
+}
+
+.line {
+  border-right: 1px solid #646369;
+  margin-right: 20px;
+  padding-bottom: 12px;
+}
+
+.project-link{ 
+  background-color: #7D73FC;
+  padding: 15px 15px;
+  font-size: 12px;
+}
+
+
+
+
+main {
+  margin-bottom: 50px;
 }
