@@ -125,9 +125,33 @@ a {
 }
 
 .recent-work h1 {
-  font-size: 40px;
-  color: #7d73fc;
   width: 327px;
+  margin: auto;
+  font-size: 2.5rem;
+  color: #7d73fc;
   line-height: 52px;
   margin: 80px 40px 30px 20px;
+  border-bottom: 1px solid #646369;
+  padding-bottom: 30px;
+}
+
+.proof {
+  width: 327px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.proof h2 {
+ font-size: 28px;
+ margin: 40px 0 40px 0px;
+}
+
+.proof p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
 }
