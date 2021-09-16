@@ -1,5 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,100&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #191765;
+  background-image: url(/img/elipse.svg);
+  background-repeat: no-repeat;
+  width: 23.5em;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+.wrap {
+  flex: 1;
+}
+
+.hero {
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0 35px;
+  flex-direction: column;
+}
+
+.hero h1 {
+  color: #7d73fc;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tag {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.decription {
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 18px;
+  padding: 0 20px 35px;
+  font-weight: 100;
+  border-bottom: 1px solid #646369;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding-top: 20px;
+}
+
+.abilities {
+  display: flex;
+  margin: 30px 0;
+  font-size: 14px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #646369;
+  padding-bottom: 40px;
+}
+
+.abilities p {
+  color: #7d73fc;
+  font-size: 14px;
+}
+
+.frameworks {
+  margin-left: 50px;
+  margin-right: 70px;
+}
+
+.skills {
+  margin-top: 30px;
+}
+
+.socials ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #fff;
+}
+
+.socials i {
+  padding: 15px;
+  font-size: 25px;
+}
+
+.point-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.work {
+  padding-left: 8px;
+  font-size: 25px;
+}
+
+.fa-arrow-down {
+  font-size: 20px;
 }
