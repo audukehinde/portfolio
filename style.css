@@ -8,7 +8,7 @@ body {
   background-color: #191765;
   background-image: url(/img/elipse.svg);
   background-repeat: no-repeat;
-  width: 23.5em;
+  width: 375px;
   font-family: 'Roboto', sans-serif;
   color: #fff;
 }
@@ -22,6 +22,7 @@ header {
   display: flex;
   padding: 15px;
   font-size: 1.2rem;
+  flex-wrap: wrap;
 }
 
 .wrap {
@@ -33,6 +34,8 @@ main {
 }
 
 .hero {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 3rem;
   justify-content: center;
   align-items: center;
@@ -96,6 +99,7 @@ ul li {
 
 .socials ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -124,6 +128,11 @@ a {
 
 .fa-arrow-down {
   font-size: 20px;
+}
+
+.recent-work {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .recent-work h1 {
