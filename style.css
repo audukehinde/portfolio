@@ -28,6 +28,10 @@ header {
   flex: 1;
 }
 
+main {
+  margin-bottom: 50px;
+}
+
 .hero {
   margin-top: 3rem;
   justify-content: center;
@@ -52,7 +56,7 @@ header {
 .decription {
   text-align: center;
   line-height: 1.5em;
-  color: #C8C8D4;
+  color: #c8c8d4;
   font-size: 18px;
   padding: 0 20px 35px;
   border-bottom: 1px solid #646369;
@@ -124,7 +128,6 @@ a {
 
 .recent-work h1 {
   width: 327px;
-  margin: auto;
   font-size: 2.5rem;
   color: #7d73fc;
   line-height: 52px;
@@ -153,7 +156,7 @@ img {
 
 .proof h2 {
  font-size: 28px;
- margin: 40px 0 40px 0px;
+ margin: 40px 0px 40px 0px;
 }
 
 .proof p {
@@ -175,8 +178,8 @@ img {
   padding-bottom: 12px;
 }
 
-.project-link{ 
-  background-color: #7D73FC;
+.project-link { 
+  background-color: #7d73fc;
   padding: 15px 15px;
   font-size: 12px;
 }
@@ -187,9 +190,3 @@ img {
   font-weight: 700;
 }
 
-
-
-
-main {
-  margin-bottom: 50px;
-}
