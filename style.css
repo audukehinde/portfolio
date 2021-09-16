@@ -121,4 +121,13 @@ a {
 
 .fa-arrow-down {
   font-size: 20px;
+  font-weight: 600;
+}
+
+.recent-work h1 {
+  font-size: 40px;
+  color: #7d73fc;
+  width: 327px;
+  line-height: 52px;
+  margin: 80px 40px 30px 20px;
 }
