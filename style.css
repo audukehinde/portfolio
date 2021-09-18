@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,100&display=swap');
-
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +8,6 @@ body {
   background-color: #191765;
   background-image: url(/img/elipse.svg);
   background-repeat: no-repeat;
-  width: 23.5em;
   font-family: 'Roboto', sans-serif;
   color: #fff;
 }
@@ -24,41 +21,51 @@ header {
   display: flex;
   padding: 15px;
   font-size: 1.2rem;
+  flex-wrap: wrap;
 }
 
 .wrap {
   flex: 1;
 }
 
+main {
+  margin-bottom: 50px;
+}
+
 .hero {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 3rem;
   justify-content: center;
   align-items: center;
   padding: 0 35px;
   flex-direction: column;
+  background-image: url(/img/Ellipse\ 19.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .hero h1 {
   color: #7d73fc;
   font-size: 2.2rem;
-  font-weight: 700;
   text-align: center;
 }
 
 .tag {
   margin-top: 1rem;
   margin-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 
 .decription {
   text-align: center;
   line-height: 1.5em;
+  color: #c8c8d4;
   font-size: 18px;
   padding: 0 20px 35px;
-  font-weight: 100;
   border-bottom: 1px solid #646369;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -94,12 +101,14 @@ ul li {
 
 .socials ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 .socials i {
@@ -121,4 +130,76 @@ a {
 
 .fa-arrow-down {
   font-size: 20px;
+}
+
+.recent-work {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(/img/Ellipse\ 20.svg);
+  background-repeat: no-repeat;
+  background-position: 0 22em;
+}
+
+.recent-work h1 {
+  width: 327px;
+  font-size: 2.5rem;
+  color: #7d73fc;
+  line-height: 52px;
+  margin: 80px 40px 30px 20px;
+  border-bottom: 1px solid #646369;
+  padding-bottom: 30px;
+}
+
+.proof {
+  width: 327px;
+  margin: auto;
+}
+
+.proof-space {
+  margin-bottom: 60px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-img {
+  height: 15em;
+}
+
+.proof h2 {
+  font-size: 28px;
+  margin: 40px 0 40px 0;
+}
+
+.proof p {
+  font-size: 17px;
+  line-height: 1.5em;
+  color: #c8c8d4;
+}
+
+.tools ul {
+  margin: 10% 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 14px;
+}
+
+.line {
+  border-right: 1px solid #646369;
+  margin-right: 20px;
+  padding-bottom: 12px;
+}
+
+.project-link {
+  background-color: #7d73fc;
+  padding: 15px 15px;
+  font-size: 12px;
+}
+
+.project-link:hover {
+  background-color: #fff;
+  color: #191765;
+  font-weight: 700;
 }
