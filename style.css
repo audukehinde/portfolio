@@ -40,6 +40,9 @@ main {
   align-items: center;
   padding: 0 35px;
   flex-direction: column;
+  background-image: url(/img/Ellipse\ 19.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .hero h1 {
@@ -132,6 +135,9 @@ a {
 .recent-work {
   display: flex;
   flex-wrap: wrap;
+  background-image: url(/img/Ellipse\ 20.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 22em;
 }
 
 .recent-work h1 {
