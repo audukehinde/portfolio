@@ -135,9 +135,9 @@ a {
 .recent-work {
   display: flex;
   flex-wrap: wrap;
-  background-image: url(img/ellipse20.svg);
-  background-repeat: no-repeat;
-  background-position: 0 22em;
+  background-image: url(img/ellipse20.svg), url(img/ellipse21.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0 22em, right;
 }
 
 .recent-work h1 {
