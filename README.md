@@ -1,9 +1,9 @@
-# My Porfolio
+# Code Review
 ---
 In this project, I learnt how to convert a figma design into a webpage. I used flexbox to place elements on the webpage. 
 
-![project image](https://github.com/audukehinde/portfolio/blob/menubranch/img/portfolio%20mobile.PNG)
-![project image](https://github.com/audukehinde/portfolio/blob/menubranch/img/portfolio%20mobile2.PNG)
+<!-- ![project image](https://github.com/audukehinde/portfolio/blob/menubranch/img/portfolio%20mobile.PNG)
+![project image](https://github.com/audukehinde/portfolio/blob/menubranch/img/portfolio%20mobile2.PNG) -->
 
 ### Built With
 ---
@@ -12,7 +12,7 @@ In this project, I learnt how to convert a figma design into a webpage. I used f
 
 ### Live Demo
 ---
-https://audukehinde.github.io/portfolio/
+<!-- https://audukehinde.github.io/portfolio/ -->
 
 ### Getting Started
 ---
