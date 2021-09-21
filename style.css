@@ -83,6 +83,7 @@ ul li {
   flex-wrap: wrap;
   border-bottom: 1px solid #646369;
   padding-bottom: 40px;
+  justify-content: center;
 }
 
 .abilities p {
@@ -192,7 +193,8 @@ img {
   padding-bottom: 12px;
 }
 
-.project-link {
+.project-link,
+.btn-submit {
   background-color: #7d73fc;
   padding: 15px 15px;
   font-size: 12px;
@@ -204,17 +206,58 @@ img {
   font-weight: 700;
 }
 
-
-input,textarea{
-  width: 330px;
-  height: 20px;
-  padding: 25px;
+form {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-bottom: 1px solid #3A3837;
+ padding-bottom: 60px;
 }
 
-textarea{
+input,
+textarea {
+  width: 327px;
+  height: 48px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea {
 height: 200px;
 }
 
-.get-touch{
-  padding:10px 20px
+.btn-submit {
+  border: none;
+  padding: 15px 25px;
+  color: #fff;
+}
+
+footer {
+  margin-bottom: 50px;
+}
+
+footer p {
+  text-align: center;
+}
+
+.form-section {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.form-section h1 {
+  color: #7d73fc;
+  margin-bottom: 1rem;
+  font-size: 32px;
+}
+
+.form-section  p {
+  line-height: 24px;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  padding: 0 20px;
 }
