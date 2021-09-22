@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
   color: #fff;
+  margin: 0 auto;
 }
 
 .logo {
@@ -73,7 +74,8 @@ ul {
 }
 
 ul li {
-  padding-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .abilities {
@@ -192,9 +194,9 @@ img {
 }
 
 .line {
+  text-align: center;
   border-right: 1px solid #646369;
   margin-right: 20px;
-  padding-bottom: 12px;
 }
 
 .project-link,
