@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
   color: #fff;
+  margin: 0 auto;
 }
 
 .logo {
@@ -73,7 +74,8 @@ ul {
 }
 
 ul li {
-  padding-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .abilities {
@@ -83,6 +85,11 @@ ul li {
   flex-wrap: wrap;
   border-bottom: 1px solid #646369;
   padding-bottom: 40px;
+  justify-content: center;
+}
+
+footer p {
+  text-align: center;
 }
 
 .abilities p {
@@ -135,9 +142,9 @@ a {
 .recent-work {
   display: flex;
   flex-wrap: wrap;
-  background-image: url(img/ellipse20.svg);
-  background-repeat: no-repeat;
-  background-position: 0 22em;
+  background-image: url(img/ellipse20.svg), url(img/ellipse21.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0 22em, right;
 }
 
 .recent-work h1 {
@@ -187,19 +194,82 @@ img {
 }
 
 .line {
+  text-align: center;
   border-right: 1px solid #646369;
   margin-right: 20px;
-  padding-bottom: 12px;
 }
 
-.project-link {
+.project-link,
+.btn-submit {
   background-color: #7d73fc;
   padding: 15px 15px;
   font-size: 12px;
 }
 
 .project-link:hover {
-  background-color: #fff;
-  color: #191765;
+  background-color: #7d73fc;
+  color: #fff;
   font-weight: 700;
+}
+
+.project-link:active {
+  background-color: #5e42d7;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #3a3837;
+}
+
+input,
+textarea {
+  width: 327px;
+  height: 48px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+  height: 200px;
+}
+
+.btn-submit {
+  border: none;
+  padding: 15px 25px;
+  color: #fff;
+}
+
+footer {
+  margin-bottom: 50px;
+}
+
+.form-section {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.form-section h1 {
+  color: #7d73fc;
+  margin-bottom: 1rem;
+  font-size: 32px;
+}
+
+.form-section p {
+  line-height: 24px;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  padding: 0 20px;
+}
+
+.btn-submit:disabled {
+  background-color: #000;
+  color: #fff;
 }
