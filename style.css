@@ -205,9 +205,14 @@ img {
 }
 
 .project-link:hover {
-  background-color: #fff;
-  color: #191765;
+  background-color: #7d73fC;
+  color: #fff;
   font-weight: 700;
+}
+
+.project-link:active {
+  background-color: #5E42D7;
+  color: #fff;
 }
 
 form {
@@ -260,4 +265,9 @@ footer {
   font-size: 16px;
   margin-bottom: 2rem;
   padding: 0 20px;
+}
+
+.btn-submit:disabled {
+  background-color: #000;
+  color: #fff;
 }
