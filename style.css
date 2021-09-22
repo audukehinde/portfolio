@@ -219,8 +219,8 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #3a3837;
   padding-bottom: 60px;
+  border-bottom: 1px solid #3a3837;
 }
 
 input,

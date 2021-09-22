@@ -1,9 +1,9 @@
-# Code Review
+# My Portfolio
 ---
 In this project, I learnt how to convert a figma design into a webpage. I used flexbox to place elements on the webpage. 
 
-<!-- ![project image](https://github.com/audukehinde/portfolio/blob/menubranch/img/portfolio%20mobile.PNG)
-![project image](https://github.com/audukehinde/portfolio/blob/menubranch/img/portfolio%20mobile2.PNG) -->
+![project image](https://github.com/audukehinde/portfolio/blob/menubranch/img/portfolio%20mobile.PNG)
+![project image](https://github.com/audukehinde/portfolio/blob/menubranch/img/portfolio%20mobile2.PNG)
 
 ### Built With
 ---
@@ -12,11 +12,13 @@ In this project, I learnt how to convert a figma design into a webpage. I used f
 
 ### Live Demo
 ---
-<!-- https://audukehinde.github.io/portfolio/ -->
+[Live Demo](https://audukehinde.github.io/portfolio/)
+
 
 ### Getting Started
 ---
 To get a local copy up and running follow these simple steps.
+
 
 ### Prerequisites
 * Fast Internet Connection
@@ -24,21 +26,33 @@ To get a local copy up and running follow these simple steps.
 * Chrome Browser or Any browser of choice
 * Text Editor (Visual Studio Code)
 
+
 ### Install
 * Visual Studio Code
 * Chrome browser or any browser of choice
 
-### Author
----
-Kehinde Audu
-* GitHub: https://github.com/audukehinde/
-* Linkedin: https://www.linkedin.com/in/kehinde-audu-a44926175/
 
-### Show your support
-Give a star if you like this project
+### Authors
+---
+👤 *Audu Kehinde*
+
+* GitHub: [@audukehinde](https://github.com/audukehindea)
+* Linkedin: [LinkedIn](https://www.linkedin.com/in/kehinde-audu-a44926175/)
+
+
+## Show your support
+
+Give a ⭐ if you like this project!
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
 
 ### Acknowledgments
 ---
 Microverse
+
+
 
 
