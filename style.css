@@ -205,13 +205,13 @@ img {
 }
 
 .project-link:hover {
-  background-color: #7d73fC;
+  background-color: #7d73fc;
   color: #fff;
   font-weight: 700;
 }
 
 .project-link:active {
-  background-color: #5E42D7;
+  background-color: #5e42d7;
   color: #fff;
 }
 
