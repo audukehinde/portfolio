@@ -4,6 +4,9 @@ In this project, I learnt how to convert a figma design into a webpage. I used f
 
 ![project image](https://github.com/audukehinde/portfolio/blob/menubranch/img/portfolio%20mobile.PNG)
 ![project image](https://github.com/audukehinde/portfolio/blob/menubranch/img/portfolio%20mobile2.PNG)
+![project Image](https://github.com/audukehinde/portfolio/blob/footer-section/img/recent%20work.PNG)
+![project image](https://github.com/audukehinde/portfolio/blob/footer-section/img/recent-work3.PNG)
+![project image](https://github.com/audukehinde/portfolio/blob/footer-section/img/recent-work4.PNG)
 
 ### Built With
 ---
