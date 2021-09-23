@@ -19,9 +19,9 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    background-image: url(img/circle1.svg);
+    background-image: url(img/circle1.svg), url(img/circle2header.svg);
     background-size: 12%;
-    background-position: 120px 170px;
+    background-position: 120px 170px, 1080px 460px;
   }
 
   
@@ -72,6 +72,7 @@ main {
 
   .hero {
     margin-top: 7rem !important;
+    background-image: none !important;
   }
 
   .hero h1 {
@@ -222,7 +223,7 @@ a {
 
   .socials ul li {
     padding-bottom: 45px;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .first-social {
@@ -232,6 +233,10 @@ a {
   .work {
     padding-left: 8px;
     font-size: 20px;
+  }
+
+  .line-divider2 {
+    width: 100% !important;
   }
 
 }
