@@ -10,7 +10,19 @@ body {
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  margin: 0 auto;
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url(img/circle1.svg);
+    background-size: 12%;
+    background-position: 120px 90px;
+  }
 }
 
 .logo {
@@ -33,13 +45,33 @@ main {
   margin-bottom: 50px;
 }
 
+.menus, .fa-envelope {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .menus, .fa-envelope {
+    display: inline-flex;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .menus li {
+    padding: 0 13px;
+    font-size: 18px;
+  }
+
+}
+
 .hero {
   display: flex;
   flex-wrap: wrap;
   margin-top: 3rem;
   justify-content: center;
   align-items: center;
-  padding: 0 35px;
+  padding: 0 4rem;
   flex-direction: column;
   background-image: url(img/ellipse19.svg);
   background-repeat: no-repeat;
@@ -80,12 +112,16 @@ ul li {
 
 .abilities {
   display: flex;
-  margin: 30px 0;
+  margin: 3rem 0;
   font-size: 14px;
   flex-wrap: wrap;
   border-bottom: 1px solid #646369;
   padding-bottom: 40px;
   justify-content: center;
+}
+
+.abilities ul {
+  margin-top: 1rem;
 }
 
 footer p {
@@ -98,12 +134,8 @@ footer p {
 }
 
 .frameworks {
-  margin-left: 50px;
-  margin-right: 70px;
-}
-
-.skills {
-  margin-top: 30px;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .socials ul {
@@ -152,7 +184,7 @@ a {
   font-size: 2.5rem;
   color: #7d73fc;
   line-height: 52px;
-  margin: 80px 40px 30px 20px;
+  margin: 5rem 3rem 3rem 1rem;
   border-bottom: 1px solid #646369;
   padding-bottom: 30px;
 }
