@@ -21,8 +21,15 @@ body {
     margin: 0 auto;
     background-image: url(img/circle1.svg);
     background-size: 12%;
-    background-position: 120px 90px;
+    background-position: 120px 170px;
   }
+
+  
+  main {
+    width: 800px;
+    margin: 0 auto;
+  }
+
 }
 
 .logo {
@@ -63,6 +70,16 @@ main {
     font-size: 18px;
   }
 
+  .hero {
+    margin-top: 7rem !important;
+  }
+
+  .hero h1 {
+    color: #7d73fc;
+    font-size: 4rem !important;
+    text-align: center;
+  }
+
 }
 
 .hero {
@@ -97,9 +114,22 @@ main {
   color: #c8c8d4;
   font-size: 18px;
   padding: 0 20px 35px;
-  border-bottom: 1px solid #646369;
   font-family: 'Roboto', sans-serif;
 }
+
+@media only screen and (min-width: 992px) {
+  .decription {
+    width: 490px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 2rem
+  }
+
+  .line-divider {
+    width: 450px;
+  }
+}
+
 
 ul {
   list-style: none;
@@ -115,13 +145,28 @@ ul li {
   margin: 3rem 0;
   font-size: 14px;
   flex-wrap: wrap;
-  border-bottom: 1px solid #646369;
-  padding-bottom: 40px;
   justify-content: center;
 }
 
-.abilities ul {
-  margin-top: 1rem;
+@media only screen and (min-width: 992px) {
+  
+  .abilities {
+    display: flex;
+    margin-left: 6rem;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+  
+  .abilities ul {
+    margin-top: 2rem;
+    margin-right: 5rem !important;
+    justify-content: center;
+  }
+}
+
+.abilities ul li {
+  margin-top: 0.7rem;
+  margin-right: 1rem;
 }
 
 footer p {
@@ -131,11 +176,6 @@ footer p {
 .abilities p {
   color: #7d73fc;
   font-size: 14px;
-}
-
-.frameworks {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .socials ul {
@@ -184,8 +224,8 @@ a {
   font-size: 2.5rem;
   color: #7d73fc;
   line-height: 52px;
-  margin: 5rem 3rem 3rem 1rem;
-  border-bottom: 1px solid #646369;
+  /* margin: 5rem 3rem 3rem 1rem; */
+  /* border-bottom: 1px solid #646369; */
   padding-bottom: 30px;
 }
 
@@ -196,6 +236,7 @@ a {
 
 .proof-space {
   margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 img {
