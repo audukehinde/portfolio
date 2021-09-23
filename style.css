@@ -14,7 +14,7 @@ body {
 
 @media only screen and (min-width: 992px) {
   body {
-    width: 1000px;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
 
   
   main {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -119,14 +119,14 @@ main {
 
 @media only screen and (min-width: 992px) {
   .decription {
-    width: 490px;
+    width: 80%;
     font-size: 20px;
     line-height: 32px;
     margin-top: 2rem
   }
 
   .line-divider {
-    width: 450px;
+    width: 75%;
   }
 }
 
@@ -138,6 +138,7 @@ ul {
 ul li {
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-right: 2rem;
 }
 
 .abilities {
@@ -159,12 +160,17 @@ ul li {
   
   .abilities ul {
     margin-top: 2rem;
-    margin-right: 5rem !important;
+    margin-right: 3rem !important;
     justify-content: center;
+    font-size: 17px;
+  }
+
+  .title {
+    font-size: 18px !important;
   }
 }
 
-.abilities ul li {
+.abilities ul {
   margin-top: 0.7rem;
   margin-right: 1rem;
 }
@@ -178,11 +184,17 @@ footer p {
   font-size: 14px;
 }
 
+.socials {
+  display: block;
+  margin: 0 auto;
+}
+
 .socials ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 
 a {
@@ -191,8 +203,37 @@ a {
 }
 
 .socials i {
-  padding: 15px;
+  padding: 5px;
   font-size: 25px;
+}
+
+.first-social {
+  display: none !important;
+}
+
+@media only screen and (min-width: 992px) {
+  
+  .socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+  .socials ul li {
+    padding-bottom: 45px;
+    font-size: 30px;
+  }
+
+  .first-social {
+    display: flex !important;
+  }
+
+  .work {
+    padding-left: 8px;
+    font-size: 20px;
+  }
+
 }
 
 .point-down {
@@ -219,14 +260,30 @@ a {
   background-position: 0 22em, right;
 }
 
+@media only screen and (min-width: 992px) {
+  
+  .recent-work {
+    display: block;
+  }
+
+  .recent {
+    margin-bottom: 0;  
+  }
+
+}
+
 .recent-work h1 {
-  width: 327px;
+  padding-right: 200px;
   font-size: 2.5rem;
   color: #7d73fc;
   line-height: 52px;
-  /* margin: 5rem 3rem 3rem 1rem; */
-  /* border-bottom: 1px solid #646369; */
+  margin: 5rem 3rem 0 1rem;
   padding-bottom: 30px;
+}
+
+.line-divider2 {
+  width: 307px;
+  margin: 0 auto;
 }
 
 .proof {
