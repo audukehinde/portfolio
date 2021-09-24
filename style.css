@@ -50,15 +50,6 @@ main {
   background-position: right;
 }
 
-form ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 60px;
-  border-bottom: 1px solid #3a3837;
-  align-items: center;
-}
-
 .hero h1 {
   color: #7d73fc;
   font-size: 2.2rem;
@@ -81,10 +72,6 @@ form ul {
   font-family: 'Roboto', sans-serif;
 }
 
-ul {
-  list-style: none;
-}
-
 ul .btw-space {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -103,12 +90,39 @@ ul li i {
   justify-content: center;
 }
 
+ul {
+  list-style: none;
+}
+
+.tools ul {
+  margin: 10% 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 14px;
+}
+
+form ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #3a3837;
+  align-items: center;
+}
+
 .socials ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+}
+
+.abilities ul {
+  margin-top: 2rem;
+  margin-right: 3rem !important;
+  justify-content: center;
+  font-size: 17px;
 }
 
 .abilities ul {
@@ -211,22 +225,6 @@ img {
   font-size: 17px;
   line-height: 1.5em;
   color: #c8c8d4;
-}
-
-.tools ul {
-  margin: 10% 0;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  font-size: 14px;
-}
-
-form ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 60px;
-  border-bottom: 1px solid #3a3837;
-  align-items: center;
 }
 
 .line {
@@ -357,7 +355,7 @@ footer {
     margin: 0 auto;
   }
 
-  .menus, 
+  .menus,
   .fa-envelope {
     display: inline-flex;
   }
@@ -397,13 +395,6 @@ footer {
     margin-left: 6rem;
     font-size: 14px;
     flex-wrap: wrap;
-  }
-
-  .abilities ul {
-    margin-top: 2rem;
-    margin-right: 3rem !important;
-    justify-content: center;
-    font-size: 17px;
   }
 
   .title {
