@@ -32,7 +32,8 @@ main {
   margin-bottom: 50px;
 }
 
-.menus, .fa-envelope {
+.menus, 
+.fa-envelope {
   display: none;
 }
 
@@ -93,6 +94,15 @@ ul li i {
   justify-content: center;
 }
 
+.socials ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+
 .abilities ul {
   margin-top: 0.7rem;
   margin-right: 1rem;
@@ -112,14 +122,6 @@ footer p {
 .socials {
   display: block;
   margin: 0 auto;
-}
-
-.socials ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
 }
 
 a {
@@ -210,6 +212,15 @@ img {
   font-size: 14px;
 }
 
+form ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #3a3837;
+  align-items: center;
+}
+
 .line {
   text-align: center;
   border-right: 1px solid #646369;
@@ -232,15 +243,6 @@ img {
 .project-link:active {
   background-color: #5e42d7;
   color: #fff;
-}
-
-form ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 60px;
-  border-bottom: 1px solid #3a3837;
-  align-items: center;
 }
 
 form ul li {
@@ -325,13 +327,11 @@ footer {
 
   .project-img {
     width: 100%;
-    /* height: 400px; */
     margin: 0 auto;
   }
 }
 
 @media only screen and (min-width: 992px) {
-
   body {
     width: 70%;
     display: flex;
@@ -343,13 +343,13 @@ footer {
     background-position: 120px 170px, 1080px 460px;
   }
 
-  
   main {
     width: 80%;
     margin: 0 auto;
   }
 
-  .menus, .fa-envelope {
+  .menus, 
+  .fa-envelope {
     display: inline-flex;
   }
 
@@ -376,7 +376,7 @@ footer {
     width: 80%;
     font-size: 20px;
     line-height: 32px;
-    margin-top: 2rem
+    margin-top: 2rem;
   }
 
   .line-divider {
@@ -389,7 +389,7 @@ footer {
     font-size: 14px;
     flex-wrap: wrap;
   }
-  
+
   .abilities ul {
     margin-top: 2rem;
     margin-right: 3rem !important;
@@ -433,9 +433,9 @@ footer {
   }
 
   .recent {
-    margin-bottom: 0;  
+    margin-bottom: 0;
   }
-  
+
   .proof {
     display: flex;
     justify-content: center;
@@ -470,7 +470,7 @@ footer {
     margin: 0;
   }
 
-  .tools ul{
+  .tools ul {
     margin: 5% 0;
     font-size: 14px;
   }
@@ -488,6 +488,4 @@ footer {
     margin-top: 5%;
     width: 100%;
   }
-
 }
-
