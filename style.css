@@ -78,7 +78,6 @@ main {
   .hero h1 {
     color: #7d73fc;
     font-size: 4rem !important;
-    text-align: center;
   }
 
 }
@@ -265,20 +264,8 @@ a {
   background-position: 0 22em, right;
 }
 
-@media only screen and (min-width: 992px) {
-  
-  .recent-work {
-    display: block;
-  }
-
-  .recent {
-    margin-bottom: 0;  
-  }
-
-}
-
 .recent-work h1 {
-  padding-right: 200px;
+  /* width: 327px; */
   font-size: 2.5rem;
   color: #7d73fc;
   line-height: 52px;
@@ -290,6 +277,8 @@ a {
   width: 307px;
   margin: 0 auto;
 }
+
+/* jdfsbg;;;;;;;;;;;;;; */
 
 .proof {
   width: 327px;
@@ -350,6 +339,58 @@ img {
 .project-link:active {
   background-color: #5e42d7;
   color: #fff;
+}
+
+@media only screen and (min-width: 992px) {
+  
+  .recent-work {
+    display: block;
+    width: 100%;
+    background-image: none !important;
+  }
+
+  .recent {
+    margin-bottom: 0;  
+  }
+  
+  .proof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .proof img {
+    width: 400px;
+    height: 300px;
+    margin-right: 1rem;
+  }
+
+  .proof-space {
+    margin-bottom: 60px;
+    margin-top: 20px;
+  }
+
+  .proof p {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #c8c8d4;
+    margin: 10px 0;
+  }
+
+  .inner-element {
+    width: 100%;
+  }
+
+  .proof h2 {
+    font-size: 28px;
+    margin: 0;
+  }
+
+  .tools ul{
+    margin: 5% 0;
+    font-size: 14px;
+  }
 }
 
 form {
