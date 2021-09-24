@@ -125,11 +125,6 @@ form ul {
   font-size: 17px;
 }
 
-/* .abilities ul {
-  margin-top: 0.7rem;
-  margin-right: 1rem;
-} */
-
 footer p {
   text-align: center;
   font-size: 20px;
@@ -322,7 +317,7 @@ footer {
   }
 
   .recent-work {
-    width: 50%;
+    width: 900px;
     margin: 0 auto;
     background-image: none;
   }
@@ -352,7 +347,7 @@ footer {
   }
 
   main {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -428,9 +423,14 @@ footer {
   }
 
   .recent-work {
-    display: block;
-    width: 100%;
-    background-image: none !important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+
+  .inner-element p {
+    width: 90%;
   }
 
   .recent {
@@ -442,6 +442,10 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
+
+  .project-img {
+    margin-right: 3em;
   }
 
   .proof img {
@@ -459,7 +463,7 @@ footer {
     font-size: 16px;
     line-height: 1.5em;
     color: #c8c8d4;
-    margin: 10px 0;
+    margin: 20px 0;
   }
 
   .inner-element {
@@ -474,11 +478,6 @@ footer {
   .tools ul {
     margin: 5% 0;
     font-size: 14px;
-  }
-
-  .grid-version {
-    display: grid;
-    grid-template-columns: 55% 45%;
   }
 
   .item1 {
