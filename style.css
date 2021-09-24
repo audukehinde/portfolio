@@ -32,7 +32,7 @@ main {
   margin-bottom: 50px;
 }
 
-.menus, 
+.menus,
 .fa-envelope {
   display: none;
 }
@@ -48,6 +48,15 @@ main {
   background-image: url(img/ellipse19.svg);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+form ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #3a3837;
+  align-items: center;
 }
 
 .hero h1 {
@@ -101,7 +110,6 @@ ul li i {
   align-items: center;
   margin-top: 2rem;
 }
-
 
 .abilities ul {
   margin-top: 0.7rem;
@@ -338,7 +346,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    background-image: url(img/circle1.svg), url(img/circle2header.svg);
+    background-image: url(img/circle1.svg),
+    url(img/circle2header.svg);
     background-size: 12%;
     background-position: 120px 170px, 1080px 460px;
   }
