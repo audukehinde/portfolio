@@ -12,26 +12,6 @@ body {
   color: #fff;
 }
 
-@media only screen and (min-width: 992px) {
-  body {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    background-image: url(img/circle1.svg), url(img/circle2header.svg);
-    background-size: 12%;
-    background-position: 120px 170px, 1080px 460px;
-  }
-
-  
-  main {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-}
-
 .logo {
   color: #fff;
   text-decoration: none;
@@ -54,32 +34,6 @@ main {
 
 .menus, .fa-envelope {
   display: none;
-}
-
-@media only screen and (min-width: 992px) {
-  .menus, .fa-envelope {
-    display: inline-flex;
-  }
-
-  .fa-bars {
-    display: none;
-  }
-
-  .menus li {
-    padding: 0 13px;
-    font-size: 18px;
-  }
-
-  .hero {
-    margin-top: 7rem !important;
-    background-image: none !important;
-  }
-
-  .hero h1 {
-    color: #7d73fc;
-    font-size: 4rem !important;
-  }
-
 }
 
 .hero {
@@ -117,20 +71,6 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
-@media only screen and (min-width: 992px) {
-  .decription {
-    width: 80%;
-    font-size: 20px;
-    line-height: 32px;
-    margin-top: 2rem
-  }
-
-  .line-divider {
-    width: 75%;
-  }
-}
-
-
 ul {
   list-style: none;
 }
@@ -149,27 +89,6 @@ ul li {
   justify-content: center;
 }
 
-@media only screen and (min-width: 992px) {
-  
-  .abilities {
-    display: flex;
-    margin-left: 6rem;
-    font-size: 14px;
-    flex-wrap: wrap;
-  }
-  
-  .abilities ul {
-    margin-top: 2rem;
-    margin-right: 3rem !important;
-    justify-content: center;
-    font-size: 17px;
-  }
-
-  .title {
-    font-size: 18px !important;
-  }
-}
-
 .abilities ul {
   margin-top: 0.7rem;
   margin-right: 1rem;
@@ -177,6 +96,7 @@ ul li {
 
 footer p {
   text-align: center;
+  font-size: 20px;
 }
 
 .abilities p {
@@ -211,35 +131,6 @@ a {
   display: none !important;
 }
 
-@media only screen and (min-width: 992px) {
-  
-  .socials {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 4rem;
-  }
-
-  .socials ul li {
-    padding-bottom: 45px;
-    font-size: 20px;
-  }
-
-  .first-social {
-    display: flex !important;
-  }
-
-  .work {
-    padding-left: 8px;
-    font-size: 20px;
-  }
-
-  .line-divider2 {
-    width: 100% !important;
-  }
-
-}
-
 .point-down {
   display: flex;
   justify-content: center;
@@ -265,7 +156,6 @@ a {
 }
 
 .recent-work h1 {
-  /* width: 327px; */
   font-size: 2.5rem;
   color: #7d73fc;
   line-height: 52px;
@@ -277,8 +167,6 @@ a {
   width: 307px;
   margin: 0 auto;
 }
-
-/* jdfsbg;;;;;;;;;;;;;; */
 
 .proof {
   width: 327px;
@@ -341,8 +229,167 @@ img {
   color: #fff;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #3a3837;
+}
+
+input,
+textarea {
+  width: 327px;
+  height: 48px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+  height: 200px;
+}
+
+.btn-submit {
+  border: none;
+  padding: 15px 25px;
+  color: #fff;
+}
+
+footer {
+  margin-bottom: 10%;
+  width: 100%;
+}
+
+.footer-socials ul {
+  margin-bottom: 5px;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.form-section {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.form-section h1 {
+  color: #7d73fc;
+  margin-bottom: 1rem;
+  font-size: 32px;
+}
+
+.form-section p {
+  line-height: 24px;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  padding: 0 20px;
+}
+
+.btn-submit:disabled {
+  background-color: #000;
+  color: #fff;
+}
+
 @media only screen and (min-width: 992px) {
+
+  body {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url(img/circle1.svg), url(img/circle2header.svg);
+    background-size: 12%;
+    background-position: 120px 170px, 1080px 460px;
+  }
+
   
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .menus, .fa-envelope {
+    display: inline-flex;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .menus li {
+    padding: 0 13px;
+    font-size: 18px;
+  }
+
+  .hero {
+    margin-top: 7rem !important;
+    background-image: none !important;
+  }
+
+  .hero h1 {
+    color: #7d73fc;
+    font-size: 4rem !important;
+  }
+
+  .decription {
+    width: 80%;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 2rem
+  }
+
+  .line-divider {
+    width: 75%;
+  }
+
+  .abilities {
+    display: flex;
+    margin-left: 6rem;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+  
+  .abilities ul {
+    margin-top: 2rem;
+    margin-right: 3rem !important;
+    justify-content: center;
+    font-size: 17px;
+  }
+
+  .title {
+    font-size: 18px !important;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+  .socials ul li {
+    padding-bottom: 45px;
+    font-size: 20px;
+  }
+
+  .first-social {
+    display: flex !important;
+  }
+
+  .work {
+    padding-left: 8px;
+    font-size: 20px;
+  }
+
+  .line-divider2 {
+    width: 100% !important;
+  }
+
   .recent-work {
     display: block;
     width: 100%;
@@ -391,61 +438,15 @@ img {
     margin: 5% 0;
     font-size: 14px;
   }
+
+  .grid-version {
+    display: grid;
+    grid-template-columns: 55% 45%;
+  }
+
+  .item1 {
+    order: 1;
+  }
+
 }
 
-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 60px;
-  border-bottom: 1px solid #3a3837;
-}
-
-input,
-textarea {
-  width: 327px;
-  height: 48px;
-  padding: 10px;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-}
-
-textarea {
-  height: 200px;
-}
-
-.btn-submit {
-  border: none;
-  padding: 15px 25px;
-  color: #fff;
-}
-
-footer {
-  margin-bottom: 50px;
-}
-
-.form-section {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-top: 4rem;
-}
-
-.form-section h1 {
-  color: #7d73fc;
-  margin-bottom: 1rem;
-  font-size: 32px;
-}
-
-.form-section p {
-  line-height: 24px;
-  font-size: 16px;
-  margin-bottom: 2rem;
-  padding: 0 20px;
-}
-
-.btn-submit:disabled {
-  background-color: #000;
-  color: #fff;
-}
