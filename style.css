@@ -75,10 +75,14 @@ ul {
   list-style: none;
 }
 
-ul li {
+ul .btw-space {
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-right: 2rem;
+  margin-right: 2em;
+}
+
+ul li i {
+  margin-right: 1em;
 }
 
 .abilities {
@@ -97,6 +101,7 @@ ul li {
 footer p {
   text-align: center;
   font-size: 20px;
+  margin-top: 20px;
 }
 
 .abilities p {
@@ -229,12 +234,17 @@ img {
   color: #fff;
 }
 
-form {
+form ul {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding-bottom: 60px;
   border-bottom: 1px solid #3a3837;
+  align-items: center;
+}
+
+form ul li {
+  padding-bottom: 20px;
 }
 
 input,
@@ -446,6 +456,11 @@ footer {
 
   .item1 {
     order: 1;
+  }
+
+  footer {
+    margin-top: 5%;
+    width: 100%;
   }
 
 }
