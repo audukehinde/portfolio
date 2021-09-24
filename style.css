@@ -345,10 +345,10 @@ footer {
     justify-content: center;
     margin: 0 auto;
     background-image:
-          url(img/circle1.svg),
-          url(img/circle2header.svg);
-          background-size: 12%;
-          background-position: 120px 170px, 1080px 460px;
+      url(img/circle1.svg),
+      url(img/circle2header.svg);
+    background-size: 12%;
+    background-position: 120px 170px, 1080px 460px;
   }
 
   main {
