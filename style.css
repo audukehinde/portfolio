@@ -8,7 +8,7 @@ body {
   background-color: #191765;
   background-image: url(img/elipse.svg);
   background-repeat: no-repeat;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
 }
 
@@ -61,6 +61,11 @@ main {
   margin-bottom: 2rem;
   font-size: 1.8rem;
   text-align: center;
+  transition: font-size 3s;
+}
+
+.tag:hover {
+  font-size: 3rem;
 }
 
 .decription {
@@ -69,7 +74,7 @@ main {
   color: #c8c8d4;
   font-size: 18px;
   padding: 0 20px 35px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 ul .btw-space {
@@ -256,7 +261,7 @@ textarea {
   height: 48px;
   padding: 10px;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 textarea {
@@ -339,9 +344,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    background-image:
-      url(img/circle1.svg),
-      url(img/circle2header.svg);
+    background-image: url(img/circle1.svg), url(img/circle2header.svg);
     background-size: 12%;
     background-position: 120px 170px, 1080px 460px;
   }
