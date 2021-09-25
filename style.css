@@ -75,11 +75,11 @@ main {
   font-size: 18px;
   padding: 0 20px 35px;
   font-family: "Roboto", sans-serif;
-  transform: 3s;
+  transition: font-size 3s;
 }
 
-.description:hover{
-  transform: rotate(360deg);      
+.decription:hover{
+  font-size: 1.5rem;  
 }
 
 ul .btw-space {
@@ -144,6 +144,11 @@ footer p {
 .abilities p {
   color: #7d73fc;
   font-size: 14px;
+  transition: font-size 3s;
+}
+
+.abilities p:hover {
+  font-size: 2rem;  
 }
 
 .socials {
@@ -195,6 +200,11 @@ a {
   line-height: 52px;
   margin: 5rem 3rem 0 1rem;
   padding-bottom: 30px;
+  transition: font-size 3s;
+}
+
+.recent-work h1:hover {
+  font-size: 3rem;
 }
 
 .line-divider2 {
