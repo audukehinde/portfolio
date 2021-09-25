@@ -78,8 +78,8 @@ main {
   transition: font-size 3s;
 }
 
-.decription:hover{
-  font-size: 1.5rem;  
+.decription:hover {
+  font-size: 1.5rem;
 }
 
 ul .btw-space {
@@ -141,6 +141,19 @@ footer p {
   margin-top: 20px;
 }
 
+.proof p {
+  font-size: 17px;
+  line-height: 1.5em;
+  color: #c8c8d4;
+}
+
+.form-section p {
+  line-height: 24px;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  padding: 0 20px;
+}
+
 .abilities p {
   color: #7d73fc;
   font-size: 14px;
@@ -148,7 +161,7 @@ footer p {
 }
 
 .abilities p:hover {
-  font-size: 2rem;  
+  font-size: 2rem;
 }
 
 .socials {
@@ -203,6 +216,12 @@ a {
   transition: font-size 3s;
 }
 
+.form-section h1 {
+  color: #7d73fc;
+  margin-bottom: 1rem;
+  font-size: 32px;
+}
+
 .recent-work h1:hover {
   font-size: 3rem;
 }
@@ -234,12 +253,6 @@ img {
 .proof h2 {
   font-size: 28px;
   margin: 40px 0 40px 0;
-}
-
-.proof p {
-  font-size: 17px;
-  line-height: 1.5em;
-  color: #c8c8d4;
 }
 
 .line {
@@ -307,19 +320,6 @@ footer {
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 4rem;
-}
-
-.form-section h1 {
-  color: #7d73fc;
-  margin-bottom: 1rem;
-  font-size: 32px;
-}
-
-.form-section p {
-  line-height: 24px;
-  font-size: 16px;
-  margin-bottom: 2rem;
-  padding: 0 20px;
 }
 
 .btn-submit:disabled {
