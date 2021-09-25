@@ -8,7 +8,7 @@ body {
   background-color: #191765;
   background-image: url(img/elipse.svg);
   background-repeat: no-repeat;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
 }
 
@@ -61,6 +61,11 @@ main {
   margin-bottom: 2rem;
   font-size: 1.8rem;
   text-align: center;
+  transition: font-size 3s;
+}
+
+.tag:hover {
+  font-size: 3rem;
 }
 
 .decription {
@@ -69,7 +74,12 @@ main {
   color: #c8c8d4;
   font-size: 18px;
   padding: 0 20px 35px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  transition: font-size 3s;
+}
+
+.decription:hover {
+  font-size: 1.5rem;
 }
 
 ul .btw-space {
@@ -131,9 +141,27 @@ footer p {
   margin-top: 20px;
 }
 
+.proof p {
+  font-size: 17px;
+  line-height: 1.5em;
+  color: #c8c8d4;
+}
+
+.form-section p {
+  line-height: 24px;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  padding: 0 20px;
+}
+
 .abilities p {
   color: #7d73fc;
   font-size: 14px;
+  transition: font-size 3s;
+}
+
+.abilities p:hover {
+  font-size: 2rem;
 }
 
 .socials {
@@ -185,6 +213,17 @@ a {
   line-height: 52px;
   margin: 5rem 3rem 0 1rem;
   padding-bottom: 30px;
+  transition: font-size 3s;
+}
+
+.form-section h1 {
+  color: #7d73fc;
+  margin-bottom: 1rem;
+  font-size: 32px;
+}
+
+.recent-work h1:hover {
+  font-size: 3rem;
 }
 
 .line-divider2 {
@@ -214,12 +253,6 @@ img {
 .proof h2 {
   font-size: 28px;
   margin: 40px 0 40px 0;
-}
-
-.proof p {
-  font-size: 17px;
-  line-height: 1.5em;
-  color: #c8c8d4;
 }
 
 .line {
@@ -256,7 +289,7 @@ textarea {
   height: 48px;
   padding: 10px;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 textarea {
@@ -287,19 +320,6 @@ footer {
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 4rem;
-}
-
-.form-section h1 {
-  color: #7d73fc;
-  margin-bottom: 1rem;
-  font-size: 32px;
-}
-
-.form-section p {
-  line-height: 24px;
-  font-size: 16px;
-  margin-bottom: 2rem;
-  padding: 0 20px;
 }
 
 .btn-submit:disabled {
@@ -339,9 +359,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    background-image:
-      url(img/circle1.svg),
-      url(img/circle2header.svg);
+    background-image: url(img/circle1.svg), url(img/circle2header.svg);
     background-size: 12%;
     background-position: 120px 170px, 1080px 460px;
   }
