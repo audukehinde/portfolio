@@ -75,6 +75,11 @@ main {
   font-size: 18px;
   padding: 0 20px 35px;
   font-family: "Roboto", sans-serif;
+  transform: 3s;
+}
+
+.description:hover{
+  transform: rotate(360deg);      
 }
 
 ul .btw-space {
