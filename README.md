@@ -26,6 +26,7 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 * Fast Internet Connection
 * Laptop or Desktop
+* Choose any operating system of your choice
 * Chrome Browser or Any browser of choice
 * Text Editor (Visual Studio Code)
 
