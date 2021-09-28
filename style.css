@@ -394,10 +394,6 @@ footer {
     flex-wrap: wrap;
   }
 
-  .title {
-    font-size: 18px !important;
-  }
-
   .socials {
     display: flex;
     justify-content: space-between;
