@@ -26,6 +26,26 @@ header {
   font-size: 1.2rem;
 }
 
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 5rem;
+  padding-left: 0;
+  list-style: none;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 16px;
+  line-height: 300%;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
 .wrap {
   flex: 1;
 }
