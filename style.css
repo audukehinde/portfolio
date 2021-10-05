@@ -18,17 +18,20 @@ body {
 }
 
 .navbar {
-  /* display: flex; */
+  display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
   padding: 0 1.5rem 1.5rem 0;
 }
 
+.navbar ul {
+  padding-top: 30px;
+}
+
 .nav-menu li {
-  padding: 30px 30px;
+  padding: 10px 30px;
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .bar {
@@ -56,13 +59,8 @@ body {
 .hamburger {
   z-index: 9999;
   cursor: pointer;
-  position: fixed;
-  right: 0;
-  margin-right: 20px;
-  top: 12px;
   color: #fff;
 }
-
 
 header {
   display: flex;
@@ -81,19 +79,20 @@ header {
   background: #191765;
   width: 100%;
   border-radius: 10px;
-  text-align: center;
   transition: 0.3s;
   font-size: 16px;
   line-height: 300%;
   height: 100vh;
 }
 
-.nav-menu.active {
-  left: 0;
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.wrap {
-  flex: 1;
+.nav-menu.active {
+  left: 0;
 }
 
 .fa-times {
@@ -102,39 +101,11 @@ header {
 
 #icon {
   z-index: 1;
-} */
-
-/* #menu-icon {
-  position: relative;
-  transform: translate(150px,-110px); 
-} */
+}
 
 main {
   margin-bottom: 50px;
 }
-
-/* .menus ,
-.fa-envelope {
-  display: none;
-} */
-
-/* ul.menus.active {
-  display: flex;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #191765; 
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-} */
-
-/* ul.menus.active li {
-  padding: 20px 30px;
-  font-size: 30px;
-} */
 
 .hero {
   display: flex;
@@ -422,7 +393,7 @@ footer {
     z-index: 999999;
   }
 
-  .hamburger{
+  .hamburger {
     display: none;
   }
 
@@ -444,6 +415,30 @@ footer {
     width: 100%;
     margin: 0 auto;
   }
+
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-menu {
+    position: initial;
+    text-align: justify;
+    height: initial;
+    width: initial;
+  }
+
+  .nav-menu li {
+    font-size: initial;
+    line-height: initial;
+    display: inline-block;
+    padding: 0;
+    margin: 0 16px;
+  }
+
+  .fa-chevron-right {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -453,9 +448,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    background-image:
-      url(img/circle1.svg),
-      url(img/circle2header.svg);
+    background-image: url(img/circle1.svg), url(img/circle2header.svg);
     background-size: 12%;
     background-position: 120px 170px, 1080px 460px;
   }
@@ -467,7 +460,7 @@ footer {
 
   .menus,
   .fa-envelope {
-    display: inline-flex;
+    display: block;
   }
 
   .fa-bars {
