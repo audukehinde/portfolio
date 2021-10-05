@@ -9,11 +9,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+  
   <title>My Portfolio</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EP43G5K157"></script>
-  <script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EP43G5K157"></script>  <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -27,13 +28,14 @@
       <a class="wrap logo" href="#">Kehinde Audu</a>
       <nav>
         <ul class="menus">
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="#recent">Portfolio</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" id="icon" onclick="showMenu()"></i><i class="fas fa-times"></i>
         <i class="far fa-envelope"></i>
       </nav>
+
     </header>
     <main>
       <section class="hero">
@@ -95,7 +97,7 @@
           <p class="work">work</p>
         </div>
       </div>
-      <section class="recent-work">
+      <section class="recent-work" id="recent">
         <h2 class="recent">MY RECENT WORK</h2>
         <img src="img/Vector4.png" alt="LIne" class="line-divider2">
         <div class="proof proof-space">
@@ -175,7 +177,7 @@
           </div>
         </div>
       </section>
-      <section class="form-section">
+      <section class="form-section" id="contact">
         <h3>CONTACT US</h3>
         <p>If you have an application you are interested in developing, a feature that you need built or a 
           project that needs coding. I’d love to help with it</p>
@@ -199,6 +201,8 @@
         </ul>
       </div>
       <p>auduomohkehinde@gmail.com</p>
-    </footer>    
+    </footer>   
+    
+    <script src="main.js"></script>
   </body>
 </html>

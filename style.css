@@ -28,6 +28,14 @@ header {
   flex: 1;
 }
 
+.fa-times {
+  display: none;
+}
+
+#icon {
+  z-index: 5;
+}
+
 main {
   margin-bottom: 50px;
 }
@@ -35,6 +43,24 @@ main {
 .menus,
 .fa-envelope {
   display: none;
+}
+
+ul.menus.active {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #191765;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul.menus.active li {
+  padding: 20px 30px;
+  font-size: 30px;
 }
 
 .hero {
@@ -311,6 +337,10 @@ footer {
 @media only screen and (min-width: 600px) {
   body {
     width: 100%;
+  }
+
+  .mobile-section {
+    display: none;
   }
 
   h1 {
