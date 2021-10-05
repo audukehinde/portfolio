@@ -17,11 +17,79 @@ body {
   text-decoration: none;
 }
 
+.navbar {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 1.5rem 1.5rem 0;
+}
+
+.nav-menu li {
+  padding: 30px 30px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.hamburger {
+  z-index: 9999;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  margin-right: 20px;
+  top: 12px;
+  color: #fff;
+}
+
+
 header {
   display: flex;
   padding: 15px;
   font-size: 1.2rem;
   flex-wrap: wrap;
+}
+
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 0;
+  padding-left: 0;
+  list-style: none;
+  flex-direction: column;
+  background: #191765;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 16px;
+  line-height: 300%;
+  height: 100vh;
+}
+
+.nav-menu.active {
+  left: 0;
 }
 
 .wrap {
@@ -34,23 +102,23 @@ header {
 
 #icon {
   z-index: 1;
-}
+} */
 
-#menu-icon {
+/* #menu-icon {
   position: relative;
   transform: translate(150px,-110px); 
-}
+} */
 
 main {
   margin-bottom: 50px;
 }
 
-.menus ,
+/* .menus ,
 .fa-envelope {
   display: none;
-}
+} */
 
-ul.menus.active {
+/* ul.menus.active {
   display: flex;
   position: absolute;
   left: 0;
@@ -61,12 +129,12 @@ ul.menus.active {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-ul.menus.active li {
+/* ul.menus.active li {
   padding: 20px 30px;
   font-size: 30px;
-}
+} */
 
 .hero {
   display: flex;
@@ -345,6 +413,16 @@ footer {
   }
 
   .mobile-section {
+    display: none;
+  }
+
+  .nav-menu {
+    display: block;
+    color: red;
+    z-index: 999999;
+  }
+
+  .hamburger{
     display: none;
   }
 

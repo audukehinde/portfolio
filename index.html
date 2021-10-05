@@ -24,25 +24,29 @@
 
 </head>
 <body>
-    <header>
-      <a class="wrap logo" href="#">Kehinde Audu</a>
-      <nav>
-        <ul class="menus">
-          <!-- <i class="fas fa-bars" id="icon" id="menu-icon" onclick="showMenu()"></i> -->
-          <!-- <a href="#"><img src="img/Union.png" alt="humberger-button" id="menu-icon" width="5"  onclick="showMenu()"> -->
-          <li><a href="#recent">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+  <header class="header">
+    <nav class="navbar d-flex">
+        <a class="wrap logo" href="#">Kehinde Audu</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+          </li>
         </ul>
-        <i class="fas fa-bars" id="icon" onclick="showMenu()"></i>
-         <!-- <a href="#"><img src="img/Union.png" class="bar" alt="humberger-button" id="icon" width="5"  onclick="showMenu()"> -->
-          <i class="fas fa-times"></i>
-         <i class="far fa-envelope"></i>
-      </nav>
-
-    </header>
+      <div class="hamburger wrap">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
     <main>
-      <section class="hero">
+      <section class="hero" id="about">
         <h1>Kehinde Audu</h1>
         <h2 class="tag">Software Developer</h2>
         <p class="decription">
@@ -101,7 +105,7 @@
           <p class="work">work</p>
         </div>
       </div>
-      <section class="recent-work" id="recent">
+      <section class="recent-work" id="portfolio">
         <h2 class="recent">MY RECENT WORK</h2>
         <img src="img/Vector4.png" alt="LIne" class="line-divider2">
         <div class="proof proof-space">
