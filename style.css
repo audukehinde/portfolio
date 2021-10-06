@@ -320,10 +320,6 @@ img {
   color: #fff;
 }
 
-form ul li {
-  padding-bottom: 20px;
-}
-
 input,
 textarea {
   width: 327px;
@@ -390,12 +386,6 @@ footer {
     display: none;
   }
 
-  .nav-menu {
-    display: block;
-    color: red;
-    z-index: 999999;
-  }
-
   .hamburger {
     display: none;
   }
@@ -429,6 +419,13 @@ footer {
     height: initial;
     width: initial;
     padding-top: initial;
+    display: block;
+    color: red;
+    z-index: 999999;
+  }
+
+  form ul li {
+    padding-bottom: 20px;
   }
 
   .nav-menu li {
