@@ -51,14 +51,6 @@ body {
   font-size: 40px;
 }
 
-.hamburger.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
-
 .hamburger {
   z-index: 9999;
   cursor: pointer;
