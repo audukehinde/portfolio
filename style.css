@@ -17,6 +17,46 @@ body {
   text-decoration: none;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1rem 1rem 0;
+}
+
+.nav-menu li {
+  padding: 30px 30px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.close {
+  display: none;
+  z-index: 9999;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.hamburger {
+  z-index: 9999;
+  cursor: pointer;
+  color: #fff;
+}
+
 header {
   display: flex;
   padding: 15px;
@@ -24,17 +64,42 @@ header {
   flex-wrap: wrap;
 }
 
-.wrap {
-  flex: 1;
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 0;
+  padding-left: 0;
+  list-style: none;
+  flex-direction: column;
+  background: #191765;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-size: 16px;
+  line-height: 300%;
+  height: 100vh;
+  padding-top: 80px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+.fa-times {
+  display: none;
+}
+
+#icon {
+  z-index: 1;
 }
 
 main {
   margin-bottom: 50px;
-}
-
-.menus,
-.fa-envelope {
-  display: none;
 }
 
 .hero {
@@ -247,10 +312,6 @@ img {
   color: #fff;
 }
 
-form ul li {
-  padding-bottom: 20px;
-}
-
 input,
 textarea {
   width: 327px;
@@ -313,6 +374,14 @@ footer {
     width: 100%;
   }
 
+  .mobile-section {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
   h1 {
     text-align: center;
   }
@@ -331,6 +400,37 @@ footer {
     width: 100%;
     margin: 0 auto;
   }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .nav-menu {
+    position: initial;
+    text-align: justify;
+    height: initial;
+    width: initial;
+    padding-top: initial;
+    display: block;
+    color: red;
+    z-index: 999999;
+  }
+
+  form ul li {
+    padding-bottom: 20px;
+  }
+
+  .nav-menu li {
+    font-size: initial;
+    line-height: initial;
+    display: inline-block;
+    padding: 0;
+    margin: 0 16px;
+  }
+
+  .fa-chevron-right {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -340,9 +440,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    background-image:
-      url(img/circle1.svg),
-      url(img/circle2header.svg);
+    background-image: url(img/circle1.svg), url(img/circle2header.svg);
     background-size: 12%;
     background-position: 120px 170px, 1080px 460px;
   }
@@ -359,6 +457,7 @@ footer {
 
   .fa-bars {
     display: none;
+    font-size: 20px;
   }
 
   .menus li {
