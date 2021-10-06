@@ -316,7 +316,7 @@ img {
 
 input,
 textarea {
-  width: 327px;
+  width: 80%;
   height: 48px;
   padding: 10px;
   font-size: 18px;
@@ -331,6 +331,7 @@ textarea {
   border: none;
   padding: 15px 25px;
   color: #fff;
+  margin-top: 15px;
 }
 
 footer {
@@ -373,6 +374,7 @@ footer {
 
 .input-form li {
   margin-top: 13px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -436,6 +438,18 @@ footer {
 
   .fa-chevron-right {
     display: none;
+  }
+
+  input {
+    width: 50%;
+    height: 48px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  textarea {
+    width: 50%;
   }
 }
 
