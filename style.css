@@ -299,6 +299,8 @@ img {
   background-color: #7d73fc;
   padding: 15px 15px;
   font-size: 12px;
+  border: none;
+  color: #fff;
 }
 
 .project-link:hover {
@@ -367,6 +369,10 @@ footer {
 .btn-submit:disabled {
   background-color: #000;
   color: #fff;
+}
+
+.input-form li {
+  margin-top: 13px;
 }
 
 @media only screen and (min-width: 600px) {
