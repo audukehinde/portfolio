@@ -14,9 +14,7 @@
     <title>My Portfolio</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-EP43G5K157"
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EP43G5K157"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -220,12 +218,13 @@
           that you need built or a project that needs coding. I’d love to help
           with it
         </p>
-        <form action="https://formspree.io/f/xayavlkq" method="POST">
+        <form action="https://formspree.io/f/xayavlkq" method="POST" id="form">
           <ul class="input-form">
             <li><input type="text" required placeholder="Full name" maxlength="30" name="name"/></li>
-            <li><input type="email" required placeholder="Email address" name="email"/></li>
+            <li><input type="email" placeholder="Email address" id="my-email" name="email"/></li>
             <li><textarea maxlength="500" placeholder="Enter text here" name="message" required></textarea></li>
-            <li><button type="submit" class="get-touch btn-submit project-link">Submit</button></li>
+            <P class="error-Message error-msg"></P>
+            <li><button type="submit" class="get-touch btn-submit project-link" id="btn-submit">Submit</button></li>
           </ul>
         </form>
       </section>
