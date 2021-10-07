@@ -48,6 +48,27 @@ form.addEventListener('submit', (e) => {
   }
 });
 
+// localStorage
+const formData = [];
+const addDataToLocalStorage = (e) => {
+  const myFormData = {
+    fullName: document.getElementById('full-name').value,
+    email: mail.value,
+    message: document.getElementById('my-message').value,
+  };
+  formData.push(myFormData);
+  e.preventDefault();
+  // document.querySelector('form').reset();
+  // console.warn('added', { formData });
+
+  // eslint-disable-next-line no-undef
+  localStorage.setItem('MyformData', JSON.stringify(formData));
+}
+form.addEventListener('click', addDataToLocalStorage);
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   document.getElementById('btn-submit').addEventListener('click', addDataToLocalStorage);
+// });
 // Pop ups
 
 // let projectData = {
