@@ -2,27 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/f8112dc1f2.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
-      rel="stylesheet"
-    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://kit.fontawesome.com/f8112dc1f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"/>
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
 
     <title>My Portfolio</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-EP43G5K157"
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EP43G5K157"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -148,9 +140,8 @@
                 <li>Ruby</li>
               </ul>
             </div>
-            <a class="project-link" href="https://www.folaajileye.com/"
-              >See Project</a
-            >
+            <button class="project-link btnsee">See Project</button>
+            <!-- <a class="project-link btnsee" href="https://www.folaajileye.com/">See Project</a> -->
           </div>
         </div>
         <div class="proof proof-space grid-version">
@@ -171,9 +162,8 @@
                 <li>Ruby</li>
               </ul>
             </div>
-            <a class="project-link" href="http://youneedsolar.com/"
-              >See Project</a
-            >
+            <button class="project-link btnsee">See Project</button>
+            <!-- <a class="project-link" href="http://youneedsolar.com/">See Project</a> -->
           </div>
         </div>
         <div class="proof proof-space item2">
@@ -194,9 +184,8 @@
                 <li>Ruby</li>
               </ul>
             </div>
-            <a class="project-link" href="http://youneedsolar.com/"
-              >See Project</a
-            >
+            <button class="project-link btnsee">See Project</button>
+            <!-- <a class="project-link" href="http://youneedsolar.com/">See Project</a> -->
           </div>
         </div>
         <div class="proof proof-space">
@@ -217,9 +206,8 @@
                 <li>Ruby</li>
               </ul>
             </div>
-            <a class="project-link" href="https://spikesecurities.com/"
-              >See Project</a
-            >
+            <button class="project-link btnsee">See Project</button>
+            <!-- <a class="project-link" href="https://spikesecurities.com/">See Project</a> -->
           </div>
         </div>
       </section>
@@ -230,38 +218,13 @@
           that you need built or a project that needs coding. I’d love to help
           with it
         </p>
-        <form action="https://formspree.io/f/xayavlkq" method="POST">
+        <form action="https://formspree.io/f/xayavlkq" method="POST" id="form">
           <ul class="input-form">
-            <li>
-              <input
-                type="text"
-                required
-                placeholder="Full name"
-                maxlength="30"
-                name="name"
-              />
-            </li>
-            <li>
-              <input
-                type="email"
-                required
-                placeholder="Email address"
-                name="email"
-              />
-            </li>
-            <li>
-              <textarea
-                maxlength="500"
-                placeholder="Enter text here"
-                name="message"
-                required
-              ></textarea>
-            </li>
-            <li>
-              <button type="submit" class="get-touch btn-submit project-link">
-                Submit
-              </button>
-            </li>
+            <li><input type="text" required placeholder="Full name" maxlength="30" name="name"/></li>
+            <li><input type="email" placeholder="Email address" id="my-email" name="email"/></li>
+            <li><textarea maxlength="500" placeholder="Enter text here" name="message" required></textarea></li>
+            <li><P class="error-Message error-msg"></P></li>
+            <li><button type="submit" class="get-touch btn-submit project-link" id="btn-submit">Submit</button></li>
           </ul>
         </form>
       </section>

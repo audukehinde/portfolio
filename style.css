@@ -299,6 +299,8 @@ img {
   background-color: #7d73fc;
   padding: 15px 15px;
   font-size: 12px;
+  border: none;
+  color: #fff;
 }
 
 .project-link:hover {
@@ -314,7 +316,7 @@ img {
 
 input,
 textarea {
-  width: 327px;
+  width: 80%;
   height: 48px;
   padding: 10px;
   font-size: 18px;
@@ -369,6 +371,15 @@ footer {
   color: #fff;
 }
 
+.input-form li {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.error-msg {
+  color: rgb(217, 255, 4);
+}
+
 @media only screen and (min-width: 600px) {
   body {
     width: 100%;
@@ -417,7 +428,7 @@ footer {
   }
 
   form ul li {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
   }
 
   .nav-menu li {
@@ -430,6 +441,18 @@ footer {
 
   .fa-chevron-right {
     display: none;
+  }
+
+  input {
+    width: 50%;
+    height: 48px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  textarea {
+    width: 50%;
   }
 }
 
