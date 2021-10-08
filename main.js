@@ -66,24 +66,44 @@ window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('my-message').value = getLocalStorageData.message;
 });
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   document.getElementById('btn-submit').addEventListener('click', addDataToLocalStorage);
-// });
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('btn-submit').addEventListener('click', addDataToLocalStorage);
+});
 // Pop ups
 
 // let projectData = {
-//   projectTitle : 'MARKETING AGENCY',
-// eslint-disable-next-line max-len
-//   projectDescription :"A website created for a digital marketing agency to help improve sales and give information about company's product. This website also helps the client to contact the company for a business deal and showcases the company's different services and packages",
-//   projectLanguages : {
-//     firstLang : 'CSS',
-//     secondLag : 'Html',
-//     thirdLang : 'JavaScript',
-//     fourthLang : 'Ruby'
-//   }
+//   projectTitle: '',
+//   projectDescription: '',
+//   projectLanguages: {
+//     firstLang: '',
+//     secondLag: '',
+//     thirdLang: '',
+//     fourthLang: '',
+//   },
 // };
 // btnProject.addEventListener('click', console.log(projectData.projectLanguages));
 
-// // console.log(projectData.projectLanguages.thirdLang);
+// console.log(projectData.projectLanguages.thirdLang);
 
 // let modal = document.createElement('div');
+let bodyElement = document.body;
+let projectSection = document.getElementById('portfolio');
+let projectSectionTitle = document.createElement('h2');
+let underLineImage = document.createElement('img');
+let projectCard = document.createElement('div');
+let projectImage = document.createElement('img');
+let projectDetails = document.createElement('div');
+let projectHeader = document.createElement('h2');
+let projectDecription = document.createElement('p');
+let projecttools = document.createElement('div');
+let toolsunoredered = document.createElement('ul');
+let list = document.createElement('li');
+let projectButton = document.createElement('button');
+
+projectSectionTitle.className = 'recent';
+underLineImage.className = 'line-divider2';
+
+underLineImage.src = 'img/Vector4.png';
+underLineImage.setAttribute('alt', 'Project Image');
+projectSectionTitle.innerText = 'MY RECENT PROJECT';
+projectSection.append(projectSectionTitle, underLineImage);
