@@ -3,9 +3,10 @@ const navMenu = document.querySelector('.nav-menu');
 const close = document.querySelector('.close');
 const open = document.querySelector('.fa-bars');
 const navLink = document.querySelectorAll('.nav-link');
-// const btnProject = document.querySelector('.btnsee');
-// Initializing our body
-// const bodyElement = document.body;
+const form = document.getElementById('form');
+const mail = document.getElementById('my-email');
+const name = document.getElementById('full-name');
+const msg = document.getElementById('my-message');
 
 hamburger.addEventListener('click', mobileMenu);
 close.addEventListener('click', switchIcons);
@@ -34,9 +35,6 @@ function toggleDisplay(element, val) {
 }
 
 // Form Vaidation
-
-const form = document.getElementById('form');
-const mail = document.getElementById('my-email');
 form.addEventListener('submit', (e) => {
   const regx = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
   const myMail = mail.value;
@@ -49,22 +47,24 @@ form.addEventListener('submit', (e) => {
 });
 
 // localStorage
-const formData = [];
-const addDataToLocalStorage = (e) => {
-  const myFormData = {
-    fullName: document.getElementById('full-name').value,
-    email: mail.value,
-    message: document.getElementById('my-message').value,
-  };
-  formData.push(myFormData);
-  e.preventDefault();
-  // document.querySelector('form').reset();
-  // console.warn('added', { formData });
 
-  // eslint-disable-next-line no-undef
-  localStorage.setItem('MyformData', JSON.stringify(formData));
-}
-form.addEventListener('click', addDataToLocalStorage);
+const addDataToLocalStorage = () => {
+  const myFormData = {
+    fullName: name.value,
+    email: mail.value,
+    message: msg.value,
+  };
+  localStorage.setItem('myFormData', JSON.stringify(myFormData));
+};
+form.addEventListener('change', addDataToLocalStorage);
+
+window.addEventListener('DOMContentLoaded', () => {
+  let getLocalStorageData = localStorage.getItem('myFormData');
+  getLocalStorageData = JSON.parse(getLocalStorageData);
+  document.getElementById('full-name').value = getLocalStorageData.fullName;
+  document.getElementById('my-email').value = getLocalStorageData.email;
+  document.getElementById('my-message').value = getLocalStorageData.message;
+});
 
 // document.addEventListener('DOMContentLoaded', () => {
 //   document.getElementById('btn-submit').addEventListener('click', addDataToLocalStorage);

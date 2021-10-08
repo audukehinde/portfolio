@@ -79,6 +79,7 @@ header {
   line-height: 300%;
   height: 100vh;
   padding-top: 80px;
+  opacity: 0.97;
 }
 
 .nav-item {
