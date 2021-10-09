@@ -392,7 +392,6 @@ footer {
   width: 80%;
 }
 
-
 .card-header {
   display: flex;
   justify-content: space-between;
@@ -520,15 +519,13 @@ footer {
     width: 50%;
   }
   .blur-bg {
-    background-color: #5e42d7;
+    background-color:#5e42d7;
     padding: 20px;
-    /* top: 50%; */
     left: 50%;
     transform: translateX(-50%);
     margin: 0 auto;
     position: fixed;
     width: 50%;
-    /* height: 80%; */
   }
 }
 
