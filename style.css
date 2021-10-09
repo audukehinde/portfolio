@@ -518,8 +518,9 @@ footer {
   textarea {
     width: 50%;
   }
+
   .blur-bg {
-    background-color:#5e42d7;
+    background-color: #5e42d7;
     padding: 20px;
     left: 50%;
     transform: translateX(-50%);
