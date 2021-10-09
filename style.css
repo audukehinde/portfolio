@@ -377,6 +377,70 @@ footer {
   width: 100%;
 }
 
+.card.card {
+  display: none;
+}
+
+.blur-bg {
+  background-color: #5e42d7;
+  padding: 20px;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  position: fixed;
+  width: 80%;
+}
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.card-desc {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 12px;
+  line-height: 1.5rem;
+}
+
+.pad {
+  padding: 0;
+}
+
+.tool ul {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tool ul li {
+  padding-right: 15px;
+}
+
+.class-close {
+  font-size: 30px;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+}
+
+.btnsee {
+  margin-right: 40px;
+}
+
+/* .card img {
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+} */
+
 .error-msg {
   color: rgb(217, 255, 4);
 }
@@ -454,6 +518,17 @@ footer {
 
   textarea {
     width: 50%;
+  }
+  .blur-bg {
+    background-color: #5e42d7;
+    padding: 20px;
+    /* top: 50%; */
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    position: fixed;
+    width: 50%;
+    /* height: 80%; */
   }
 }
 
