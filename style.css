@@ -425,12 +425,6 @@ footer {
   font-size: 30px;
 }
 
-/* .card-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 .btnsee {
   width: 50%;
   left: 50%;
@@ -439,14 +433,6 @@ footer {
   margin-bottom: 10px;
   display: block;
 }
-/* #overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0, .10);;
-} */
 
 .error-msg {
   color: rgb(217, 255, 4);
