@@ -47,7 +47,7 @@ body {
 .close {
   display: none;
   z-index: 9999;
-  cursor: pointer;
+  cursor: pointer !important;
   font-size: 40px;
 }
 
@@ -382,7 +382,7 @@ footer {
 }
 
 .blur-bg {
-  background-color: #5e42d7;
+  background: #3d3368;
   padding: 20px;
   top: 5px;
   left: 50%;
@@ -418,26 +418,34 @@ footer {
 }
 
 .tool ul li {
-  padding-right: 15px;
+  padding-right: 7px;
 }
 
 .class-close {
   font-size: 30px;
 }
 
-.card-button {
+/* .card-button {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-}
+} */
 
 .btnsee {
-  margin-right: 40px;
+  width: 50%;
+  left: 50%;
+  margin-right: 10px;
+  transform: translate(50%);
+  margin-bottom: 10px;
+  display: block;
 }
-
-/* .card img {
-  width: 60%;
-  height: 60%;
-  margin: 0 auto;
+/* #overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0, .10);;
 } */
 
 .error-msg {
@@ -520,13 +528,27 @@ footer {
   }
 
   .blur-bg {
-    background-color: #5e42d7;
+    background: #3d3368;
     padding: 20px;
     left: 50%;
     transform: translateX(-50%);
     margin: 0 auto;
     position: fixed;
     width: 50%;
+    opacity: 1;
+  }
+
+  .card-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btnsee {
+    width: unset;
+    left: unset;
+    transform: unset;
+    margin-bottom: unset;
+    display: unset;
   }
 }
 

@@ -177,7 +177,8 @@ const popcard = `<div class="card-header">
             </ul>
     </div>
     <div class="card-button">
-      <button class="project-link btnsee">See Project</button>
-      <button class="project-link">See Project</button>
-    </div>`;
+      <button class="project-link btnsee">See Live <a href="#"><i class="fab fa-github"></i></a></button>
+      <button class="project-link btnsee">See Source <i class="fab fa-github"></i></a></button>
+    </div>
+    <div id="overlay"></div>`;
 popupcard.innerHTML += popcard;
