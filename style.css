@@ -52,7 +52,6 @@ body {
 }
 
 .hamburger {
-  z-index: 9999;
   cursor: pointer;
   color: #fff;
 }
