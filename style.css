@@ -48,7 +48,8 @@ body {
   display: none;
   z-index: 9999;
   cursor: pointer;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 0 !important;
 }
 
 .hamburger {
