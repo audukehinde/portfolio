@@ -423,6 +423,7 @@ footer {
 
 .class-close {
   font-size: 30px;
+  cursor: pointer;
 }
 
 .btnsee {
