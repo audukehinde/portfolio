@@ -47,7 +47,7 @@ body {
 .close {
   display: none;
   z-index: 9999;
-  cursor: pointer;
+  cursor: pointer !important;
   font-size: 40px;
 }
 
@@ -79,6 +79,7 @@ header {
   line-height: 300%;
   height: 100vh;
   padding-top: 80px;
+  opacity: 0.97;
 }
 
 .nav-item {
@@ -376,6 +377,64 @@ footer {
   width: 100%;
 }
 
+.card.card {
+  display: none;
+}
+
+.blur-bg {
+  background: #3d3368;
+  padding: 20px;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  position: fixed;
+  width: 80%;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.card-desc {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 12px;
+  line-height: 1.5rem;
+}
+
+.pad {
+  padding: 0;
+}
+
+.tool ul {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tool ul li {
+  padding-right: 7px;
+}
+
+.class-close {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.btnsee {
+  width: 50%;
+  left: 50%;
+  margin-right: 10px;
+  transform: translate(50%);
+  margin-bottom: 10px;
+  display: block;
+}
+
 .error-msg {
   color: rgb(217, 255, 4);
 }
@@ -453,6 +512,30 @@ footer {
 
   textarea {
     width: 50%;
+  }
+
+  .blur-bg {
+    background: #3d3368;
+    padding: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    position: fixed;
+    width: 50%;
+    opacity: 1;
+  }
+
+  .card-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btnsee {
+    width: unset;
+    left: unset;
+    transform: unset;
+    margin-bottom: unset;
+    display: unset;
   }
 }
 

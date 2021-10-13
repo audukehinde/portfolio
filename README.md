@@ -55,8 +55,10 @@ Contributions, issues, and feature requests are welcome!
 
 ### Acknowledgments
 ---
-Microverse
+Thanks to Microverse and my Coding Partners
 
+## 📝 License
 
+This project is [MIT](./MIT.md) licensed.
 
 
