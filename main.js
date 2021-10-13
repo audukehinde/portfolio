@@ -3,9 +3,6 @@ const navMenu = document.querySelector('.nav-menu');
 const close = document.querySelector('.close');
 const open = document.querySelector('.fa-bars');
 const navLink = document.querySelectorAll('.nav-link');
-// const btnProject = document.querySelector('.btnsee');
-// Initializing our body
-// const bodyElement = document.body;
 
 hamburger.addEventListener('click', mobileMenu);
 close.addEventListener('click', switchIcons);
@@ -34,7 +31,6 @@ function toggleDisplay(element, val) {
 }
 
 // Form Vaidation
-
 const form = document.getElementById('form');
 const mail = document.getElementById('my-email');
 form.addEventListener('submit', (e) => {
@@ -47,22 +43,3 @@ form.addEventListener('submit', (e) => {
     document.querySelector('.error-Message').innerHTML = 'Please remove all Uppercase Letter(s) from Email Field';
   }
 });
-
-// Pop ups
-
-// let projectData = {
-//   projectTitle : 'MARKETING AGENCY',
-// eslint-disable-next-line max-len
-//   projectDescription :"A website created for a digital marketing agency to help improve sales and give information about company's product. This website also helps the client to contact the company for a business deal and showcases the company's different services and packages",
-//   projectLanguages : {
-//     firstLang : 'CSS',
-//     secondLag : 'Html',
-//     thirdLang : 'JavaScript',
-//     fourthLang : 'Ruby'
-//   }
-// };
-// btnProject.addEventListener('click', console.log(projectData.projectLanguages));
-
-// // console.log(projectData.projectLanguages.thirdLang);
-
-// let modal = document.createElement('div');
