@@ -8,10 +8,6 @@ const mail = document.getElementById('my-email');
 const name = document.getElementById('full-name');
 const msg = document.getElementById('my-message');
 
-hamburger.addEventListener('click', mobileMenu);
-close.addEventListener('click', switchIcons);
-navLink.forEach((n) => n.addEventListener('click', closeMenu));
-
 function mobileMenu() {
   navMenu.classList.toggle('active');
   toggleDisplay(open, 'none');
@@ -29,6 +25,10 @@ function switchIcons() {
   toggleDisplay(close, 'none');
   closeMenu();
 }
+
+hamburger.addEventListener('click', mobileMenu);
+close.addEventListener('click', switchIcons);
+navLink.forEach((n) => n.addEventListener('click', closeMenu));
 
 function toggleDisplay(element, val) {
   element.style.display = val;
