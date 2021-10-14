@@ -65,25 +65,3 @@ window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('my-email').value = getLocalStorageData.email;
   document.getElementById('my-message').value = getLocalStorageData.message;
 });
-
-// document.addEventListener('DOMContentLoaded', () => {
-//   document.getElementById('btn-submit').addEventListener('click', addDataToLocalStorage);
-// });
-// Pop ups
-
-// let projectData = {
-//   projectTitle : 'MARKETING AGENCY',
-// eslint-disable-next-line max-len
-//   projectDescription :"A website created for a digital marketing agency to help improve sales and give information about company's product. This website also helps the client to contact the company for a business deal and showcases the company's different services and packages",
-//   projectLanguages : {
-//     firstLang : 'CSS',
-//     secondLag : 'Html',
-//     thirdLang : 'JavaScript',
-//     fourthLang : 'Ruby'
-//   }
-// };
-// btnProject.addEventListener('click', console.log(projectData.projectLanguages));
-
-// // console.log(projectData.projectLanguages.thirdLang);
-
-// let modal = document.createElement('div');
