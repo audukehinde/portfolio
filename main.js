@@ -57,7 +57,7 @@ const addDataToLocalStorage = () => {
   };
   localStorage.setItem('myFormData', JSON.stringify(myFormData));
 };
-form.addEventListener('change', addDataToLocalStorage);
+form.addEventListener('input', addDataToLocalStorage);
 
 window.addEventListener('DOMContentLoaded', () => {
   let getLocalStorageData = localStorage.getItem('myFormData');
